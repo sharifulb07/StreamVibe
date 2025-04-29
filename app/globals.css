@@ -1,7 +1,7 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
+  --background: #141414;
   --foreground: #171717;
 
   --red-shade-45:#E50000;
@@ -37,6 +37,36 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+
+  
+  --color-red-shade-45:#E50000;
+  --color-red-shade-50:#FF0000;
+  --color-red-shade-55:#FF1919;
+  --color-red-shade-60:#FF3333;
+  --color-red-shade-80:#FF9999;
+  --color-red-shade-90:#FFCCCC;
+  --color-red-shade-95:#FFE5E5;
+  --color-red-shade-99:#FFFAFA;
+
+  --color-black-shade-06:#0F0F0F;
+  --color-black-shade-08:#141414;
+  --color-black-shade-10:#1A1A1A;
+  --color-black-shade-12:#1F1F1F;
+  --color-black-shade-15:#262626;
+  --color-black-shade-20:#333333;
+  --color-black-shade-25:#404040;
+  --color-black-shade-30:#4C4C4C;
+
+
+  --color-grey-shade-60:#999999;
+  --color-grey-shade-65:#A6A6A6;
+  --color-grey-shade-70:#B3B3B3;
+  --color-grey-shade-75:#BFBFBF;
+  --color-grey-shade-90:#E4E4E7;
+  --color-grey-shade-95:#F1F1F3;
+  --color-grey-shade-97:#F7F7F8;
+  --color-grey-shade-99:#FCFCFD;
+
   --font-manrope: var(--font-manrope);
   
 }
@@ -54,4 +84,13 @@ body {
   color: var(--foreground);
   font-family: var(--font-manrope);
   
+}
+
+li{
+  list-style: none;
+  cursor: pointer;
+}
+
+a{
+  text-decoration: none;
 }
